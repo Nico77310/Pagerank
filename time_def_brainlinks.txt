@@ -1,0 +1,691 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 38.58      0.76     0.76      150     0.01     0.01  pagerank__B_15__new_matrix__next_weight_vector.8618
+ 24.88      1.25     0.49  2929684     0.00     0.00  pagerank__B_15__sort_arcs__sort__sift.12519
+ 17.26      1.59     0.34 85411695     0.00     0.00  pagerank__B_15__sort_arcs__sort__to_index.12516
+  7.61      1.74     0.15        1     0.15     0.15  pagerank__B_15__new_vector__vector_sort.6071
+  2.79      1.80     0.06 39648855     0.00     0.00  pagerank__B_15__Olt.10416
+  1.52      1.83     0.03  1995412     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__lock.10824
+  1.02      1.85     0.02  1995412     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397
+  1.02      1.87     0.02  1995412     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__unlock.10827
+  1.02      1.89     0.02  1490149     0.00     0.00  pagerank__B_15__new_vector__elementary_functions__OexponXnn.8674
+  1.02      1.91     0.02                             pagerank__B_15__integer_hash_map__ht_types__implementation__zero_counts.10815
+  0.51      1.92     0.01   996561     0.00     0.00  pagerank__B_15__integer_hash_map__key_ops__checked_index___finalizer.12948
+  0.51      1.93     0.01   986569     0.00     0.00  pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keys___finalizer.12932
+  0.51      1.94     0.01   976562     0.00     0.00  pagerank__B_15__integer_hash_map__element__2.12104
+  0.51      1.95     0.01      149     0.00     0.00  pagerank__B_15__new_vector__vector_distance.6036
+  0.51      1.96     0.01        2     0.01     0.45  pagerank__B_15__sort_arcs__sort.12509
+  0.51      1.97     0.01        1     0.01     1.95  _ada_pagerank
+  0.25      1.97     0.01                             pagerank__B_15__integer_vectors__iteratorFD.8452
+  0.00      1.97     0.00  1995412     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400
+  0.00      1.97     0.00  1995412     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415
+  0.00      1.97     0.00  1008843     0.00     0.00  pagerank__B_15__hash.10435
+  0.00      1.97     0.00   996561     0.00     0.00  pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657
+  0.00      1.97     0.00   986569     0.00     0.00  pagerank__B_15__integer_hash_map__equivalent_key_node.12648
+  0.00      1.97     0.00   986569     0.00     0.00  pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662
+  0.00      1.97     0.00   986562     0.00     0.00  pagerank__B_15__integer_hash_map__key_ops__findXnn.12672
+  0.00      1.97     0.00    22289     0.00     0.00  pagerank__B_15__integer_hash_map__next__5.12554
+  0.00      1.97     0.00    19998     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__capacityXnn.12602
+  0.00      1.97     0.00    12282     0.00     0.00  pagerank__B_15__integer_hash_map__hash_node.12551
+  0.00      1.97     0.00    12282     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582
+  0.00      1.97     0.00    12282     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__checked_index___finalizer.12727
+  0.00      1.97     0.00    12282     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__indexXnn.12573
+  0.00      1.97     0.00    12282     0.00     0.00  pagerank__B_15__integer_hash_map__set_next.12558
+  0.00      1.97     0.00    10009     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830
+  0.00      1.97     0.00    10001     0.00     0.00  pagerank__element_io__put.4821
+  0.00      1.97     0.00    10000     0.00     0.00  pagerank__B_15__integer_hash_map__contains.12100
+  0.00      1.97     0.00    10000     0.00     0.00  pagerank__B_15__integer_hash_map__find.12096
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__cursorIP.11875
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__free.12565
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__insert.12050
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__insert__3.12061
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__insert__local_insert.13154
+  0.00      1.97     0.00     9999     0.00     0.00  pagerank__B_15__integer_hash_map__insert__new_node.13146
+  0.00      1.97     0.00      450     0.00     0.00  pagerank__B_15__integer_vectors__implementation__finalize.6952
+  0.00      1.97     0.00      450     0.00     0.00  pagerank__B_15__integer_vectors__implementation__lock.6672
+  0.00      1.97     0.00      450     0.00     0.00  pagerank__B_15__integer_vectors__implementation__unlock.6675
+  0.00      1.97     0.00      300     0.00     0.00  pagerank__B_15__integer_vectors__has_element.7656
+  0.00      1.97     0.00      300     0.00     0.00  pagerank__B_15__integer_vectors__implementation__adjust.6949
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__T913b.8445
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__T941b.8479
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__finalize__4.8428
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__first.7981
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__first__3.8458
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__get_element_access.8162
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__implementation__busy.6666
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__implementation__unbusy.6669
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__is_empty.7708
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__iterate__2.8052
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__iterate__R2472b___finalizer__2.9629
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__iterate___finalizer__2.9623
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__iteratorDF__2.8441
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__next__2.8000
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__pseudo_reference.8158
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__integer_vectors__pseudo_reference__R2620b___finalizer.9846
+  0.00      1.97     0.00      150     0.00     0.00  pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363
+  0.00      1.97     0.00       10     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__free_bucketsXnn.12644
+  0.00      1.97     0.00        9     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__new_bucketsXnn.12640
+  0.00      1.97     0.00        9     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606
+  0.00      1.97     0.00        9     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__buckets_typeIP.11455
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_hash_map__finalize__2.11811
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_hash_map__ht_types__hash_table_typeIP.11634
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_vectors__finalize__2.7589
+  0.00      1.97     0.00        2     0.00     0.00  pagerank__B_15__integer_vectors__implementation__tc_check.6678
+  0.00      1.97     0.00        2     0.00     0.45  pagerank__B_15__sort_arcs.10421
+  0.00      1.97     0.00        1     0.00     0.00  ada_main__Tsec_default_sized_stacksBIP
+  0.00      1.97     0.00        1     0.00     0.00  ada_main___elabb
+  0.00      1.97     0.00        1     0.00     0.00  ada_main__finalize_library
+  0.00      1.97     0.00        1     0.00     0.00  adafinal
+  0.00      1.97     0.00        1     0.00     0.00  adainit
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15___finalizer.5997
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_hash_map__mapIP.11860
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_vectors__append__2.7931
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_vectors__append_slow_path.8941
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_vectors__insert__4.7887
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_vectors__length.7701
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__integer_vectors__vectorIP.7638
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__invert_arcs.10424
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_15__new_matrix__ones.8612
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B119b___finalizer.5225
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B58b___finalizer.5129
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B68b___finalizer.5147
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B78b___finalizer.5165
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B88b___finalizer.5180
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B92b___finalizer.5186
+  0.00      1.97     0.00        1     0.00     0.00  pagerank__B_1__L_2__B96b___finalizer.5192
+  0.00      1.97     0.00        1     0.00     0.00  pagerank___finalizer.4633
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.51% of 1.97 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     98.7    0.00    1.95                 main [1]
+                0.01    1.94       1/1           _ada_pagerank [2]
+                0.00    0.00       1/1           adafinal [79]
+                0.00    0.00       1/1           adainit [80]
+-----------------------------------------------
+                0.01    1.94       1/1           main [1]
+[2]     98.7    0.01    1.94       1         _ada_pagerank [2]
+                0.00    0.90       2/2           pagerank__B_15__sort_arcs.10421 [3]
+                0.76    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+                0.15    0.00       1/1           pagerank__B_15__new_vector__vector_sort.6071 [8]
+                0.01    0.09  976562/976562      pagerank__B_15__integer_hash_map__element__2.12104 [9]
+                0.01    0.02     149/149         pagerank__B_15__new_vector__vector_distance.6036 [15]
+                0.00    0.00   10000/10000       pagerank__B_15__integer_hash_map__contains.12100 [24]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__3.12061 [27]
+                0.00    0.00   10001/10001       pagerank__element_io__put.4821 [41]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B58b___finalizer.5129 [91]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B68b___finalizer.5147 [92]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B78b___finalizer.5165 [93]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B88b___finalizer.5180 [94]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B92b___finalizer.5186 [95]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B96b___finalizer.5192 [96]
+                0.00    0.00       1/1           pagerank__B_1__L_2__B119b___finalizer.5225 [90]
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__vectorIP.7638 [87]
+                0.00    0.00       1/2           pagerank__B_15__integer_hash_map__ht_types__hash_table_typeIP.11634 [73]
+                0.00    0.00       1/1           pagerank__B_15__integer_hash_map__mapIP.11860 [82]
+                0.00    0.00       1/1           pagerank__B_15__new_matrix__ones.8612 [89]
+                0.00    0.00       1/1           pagerank__B_15__invert_arcs.10424 [88]
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__append__2.7931 [83]
+                0.00    0.00       1/1           pagerank__B_15___finalizer.5997 [81]
+                0.00    0.00       1/1           pagerank___finalizer.4633 [97]
+-----------------------------------------------
+                0.00    0.90       2/2           _ada_pagerank [2]
+[3]     45.4    0.00    0.90       2         pagerank__B_15__sort_arcs.10421 [3]
+                0.01    0.89       2/2           pagerank__B_15__sort_arcs__sort.12509 [4]
+-----------------------------------------------
+                0.01    0.89       2/2           pagerank__B_15__sort_arcs.10421 [3]
+[4]     45.4    0.01    0.89       2         pagerank__B_15__sort_arcs__sort.12509 [4]
+                0.49    0.38 2929684/2929684     pagerank__B_15__sort_arcs__sort__sift.12519 [5]
+                0.02    0.00 4882806/85411695     pagerank__B_15__sort_arcs__sort__to_index.12516 [7]
+-----------------------------------------------
+                0.49    0.38 2929684/2929684     pagerank__B_15__sort_arcs__sort.12509 [4]
+[5]     43.9    0.49    0.38 2929684         pagerank__B_15__sort_arcs__sort__sift.12519 [5]
+                0.32    0.00 80528889/85411695     pagerank__B_15__sort_arcs__sort__to_index.12516 [7]
+                0.06    0.00 39648855/39648855     pagerank__B_15__Olt.10416 [11]
+-----------------------------------------------
+                0.76    0.00     150/150         _ada_pagerank [2]
+[6]     38.6    0.76    0.00     150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+                0.00    0.00     300/300         pagerank__B_15__integer_vectors__has_element.7656 [48]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__pseudo_reference.8158 [64]
+                0.00    0.00     150/300         pagerank__B_15__integer_vectors__implementation__adjust.6949 [49]
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__implementation__finalize.6952 [45]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate__2.8052 [59]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__first__3.8458 [54]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__T941b.8479 [51]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__get_element_access.8162 [55]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__next__2.8000 [63]
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363 [66]
+-----------------------------------------------
+                0.02    0.00 4882806/85411695     pagerank__B_15__sort_arcs__sort.12509 [4]
+                0.32    0.00 80528889/85411695     pagerank__B_15__sort_arcs__sort__sift.12519 [5]
+[7]     17.3    0.34    0.00 85411695         pagerank__B_15__sort_arcs__sort__to_index.12516 [7]
+-----------------------------------------------
+                0.15    0.00       1/1           _ada_pagerank [2]
+[8]      7.6    0.15    0.00       1         pagerank__B_15__new_vector__vector_sort.6071 [8]
+-----------------------------------------------
+                0.01    0.09  976562/976562      _ada_pagerank [2]
+[9]      5.0    0.01    0.09  976562         pagerank__B_15__integer_hash_map__element__2.12104 [9]
+                0.00    0.09  976562/986562      pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [10]
+-----------------------------------------------
+                0.00    0.00   10000/986562      pagerank__B_15__integer_hash_map__find.12096 [25]
+                0.00    0.09  976562/986562      pagerank__B_15__integer_hash_map__element__2.12104 [9]
+[10]     4.5    0.00    0.09  986562         pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [10]
+                0.00    0.04  986561/986569      pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+                0.00    0.04  986562/996561      pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+-----------------------------------------------
+                0.06    0.00 39648855/39648855     pagerank__B_15__sort_arcs__sort__sift.12519 [5]
+[11]     2.8    0.06    0.00 39648855         pagerank__B_15__Olt.10416 [11]
+-----------------------------------------------
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+                0.01    0.01  986569/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+                0.01    0.01  996561/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+[12]     2.5    0.02    0.03 1995412         pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [12]
+                0.03    0.00 1995412/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__lock.10824 [16]
+-----------------------------------------------
+                0.00    0.00    9999/996561      pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+                0.00    0.04  986562/996561      pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [10]
+[13]     2.3    0.00    0.04  996561         pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+                0.01    0.01  996561/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [12]
+                0.01    0.01  996561/996561      pagerank__B_15__integer_hash_map__key_ops__checked_index___finalizer.12948 [21]
+                0.00    0.00  996561/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415 [32]
+                0.00    0.00  996561/1008843     pagerank__B_15__hash.10435 [33]
+-----------------------------------------------
+                0.00    0.00       8/986569      pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+                0.00    0.04  986561/986569      pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [10]
+[14]     2.3    0.00    0.04  986569         pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+                0.01    0.01  986569/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [12]
+                0.01    0.01  986569/986569      pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keys___finalizer.12932 [22]
+                0.00    0.00  986569/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415 [32]
+                0.00    0.00  986569/986569      pagerank__B_15__integer_hash_map__equivalent_key_node.12648 [34]
+-----------------------------------------------
+                0.01    0.02     149/149         _ada_pagerank [2]
+[15]     1.5    0.01    0.02     149         pagerank__B_15__new_vector__vector_distance.6036 [15]
+                0.02    0.00 1490149/1490149     pagerank__B_15__new_vector__elementary_functions__OexponXnn.8674 [17]
+-----------------------------------------------
+                0.03    0.00 1995412/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [12]
+[16]     1.5    0.03    0.00 1995412         pagerank__B_15__integer_hash_map__ht_types__implementation__lock.10824 [16]
+-----------------------------------------------
+                0.02    0.00 1490149/1490149     pagerank__B_15__new_vector__vector_distance.6036 [15]
+[17]     1.0    0.02    0.00 1490149         pagerank__B_15__new_vector__elementary_functions__OexponXnn.8674 [17]
+-----------------------------------------------
+                                                 <spontaneous>
+[18]     1.0    0.02    0.00                 pagerank__B_15__integer_hash_map__ht_types__implementation__zero_counts.10815 [18]
+-----------------------------------------------
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_ops__checked_index___finalizer.12727 [31]
+                0.00    0.01  986569/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keys___finalizer.12932 [22]
+                0.00    0.01  996561/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_index___finalizer.12948 [21]
+[19]     1.0    0.00    0.02 1995412         pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [19]
+                0.02    0.00 1995412/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__unlock.10827 [20]
+-----------------------------------------------
+                0.02    0.00 1995412/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [19]
+[20]     1.0    0.02    0.00 1995412         pagerank__B_15__integer_hash_map__ht_types__implementation__unlock.10827 [20]
+-----------------------------------------------
+                0.01    0.01  996561/996561      pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+[21]     1.0    0.01    0.01  996561         pagerank__B_15__integer_hash_map__key_ops__checked_index___finalizer.12948 [21]
+                0.00    0.01  996561/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [19]
+-----------------------------------------------
+                0.01    0.01  986569/986569      pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+[22]     1.0    0.01    0.01  986569         pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keys___finalizer.12932 [22]
+                0.00    0.01  986569/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [19]
+-----------------------------------------------
+                                                 <spontaneous>
+[23]     0.3    0.01    0.00                 pagerank__B_15__integer_vectors__iteratorFD.8452 [23]
+-----------------------------------------------
+                0.00    0.00   10000/10000       _ada_pagerank [2]
+[24]     0.0    0.00    0.00   10000         pagerank__B_15__integer_hash_map__contains.12100 [24]
+                0.00    0.00   10000/10000       pagerank__B_15__integer_hash_map__find.12096 [25]
+-----------------------------------------------
+                0.00    0.00   10000/10000       pagerank__B_15__integer_hash_map__contains.12100 [24]
+[25]     0.0    0.00    0.00   10000         pagerank__B_15__integer_hash_map__find.12096 [25]
+                0.00    0.00   10000/986562      pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [10]
+-----------------------------------------------
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__3.12061 [27]
+[26]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__insert.12050 [26]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+                0.00    0.00   19998/19998       pagerank__B_15__integer_hash_map__ht_ops__capacityXnn.12602 [36]
+-----------------------------------------------
+                0.00    0.00    9999/9999        _ada_pagerank [2]
+[27]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__insert__3.12061 [27]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert.12050 [26]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__cursorIP.11875 [42]
+-----------------------------------------------
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert.12050 [26]
+[28]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+                0.00    0.00    9999/996561      pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+                0.00    0.00       8/986569      pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+                0.00    0.00    9999/10009       pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830 [40]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__new_node.13146 [44]
+                0.00    0.00       8/22289       pagerank__B_15__integer_hash_map__next__5.12554 [35]
+-----------------------------------------------
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+[29]     0.0    0.00    0.00   12282         pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [12]
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__checked_index___finalizer.12727 [31]
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415 [32]
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__indexXnn.12573 [38]
+-----------------------------------------------
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__insert.12050 [26]
+[30]     0.0    0.00    0.00       9         pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+                0.00    0.00   12282/22289       pagerank__B_15__integer_hash_map__next__5.12554 [35]
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__set_next.12558 [39]
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__ht_ops__new_bucketsXnn.12640 [68]
+                0.00    0.00       8/10009       pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830 [40]
+                0.00    0.00       8/10          pagerank__B_15__integer_hash_map__ht_ops__free_bucketsXnn.12644 [67]
+-----------------------------------------------
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+[31]     0.0    0.00    0.00   12282         pagerank__B_15__integer_hash_map__ht_ops__checked_index___finalizer.12727 [31]
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [19]
+-----------------------------------------------
+                0.00    0.00   12282/1995412     pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+                0.00    0.00  986569/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+                0.00    0.00  996561/1995412     pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+[32]     0.0    0.00    0.00 1995412         pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415 [32]
+-----------------------------------------------
+                0.00    0.00   12282/1008843     pagerank__B_15__integer_hash_map__hash_node.12551 [37]
+                0.00    0.00  996561/1008843     pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [13]
+[33]     0.0    0.00    0.00 1008843         pagerank__B_15__hash.10435 [33]
+-----------------------------------------------
+                0.00    0.00  986569/986569      pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [14]
+[34]     0.0    0.00    0.00  986569         pagerank__B_15__integer_hash_map__equivalent_key_node.12648 [34]
+-----------------------------------------------
+                0.00    0.00       8/22289       pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+                0.00    0.00    9999/22289       pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [71]
+                0.00    0.00   12282/22289       pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+[35]     0.0    0.00    0.00   22289         pagerank__B_15__integer_hash_map__next__5.12554 [35]
+-----------------------------------------------
+                0.00    0.00   19998/19998       pagerank__B_15__integer_hash_map__insert.12050 [26]
+[36]     0.0    0.00    0.00   19998         pagerank__B_15__integer_hash_map__ht_ops__capacityXnn.12602 [36]
+-----------------------------------------------
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__indexXnn.12573 [38]
+[37]     0.0    0.00    0.00   12282         pagerank__B_15__integer_hash_map__hash_node.12551 [37]
+                0.00    0.00   12282/1008843     pagerank__B_15__hash.10435 [33]
+-----------------------------------------------
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [29]
+[38]     0.0    0.00    0.00   12282         pagerank__B_15__integer_hash_map__ht_ops__indexXnn.12573 [38]
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__hash_node.12551 [37]
+-----------------------------------------------
+                0.00    0.00   12282/12282       pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+[39]     0.0    0.00    0.00   12282         pagerank__B_15__integer_hash_map__set_next.12558 [39]
+-----------------------------------------------
+                0.00    0.00       2/10009       pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [71]
+                0.00    0.00       8/10009       pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+                0.00    0.00    9999/10009       pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+[40]     0.0    0.00    0.00   10009         pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830 [40]
+-----------------------------------------------
+                0.00    0.00   10001/10001       _ada_pagerank [2]
+[41]     0.0    0.00    0.00   10001         pagerank__element_io__put.4821 [41]
+-----------------------------------------------
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__3.12061 [27]
+[42]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__cursorIP.11875 [42]
+-----------------------------------------------
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [71]
+[43]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__free.12565 [43]
+-----------------------------------------------
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__insert__local_insert.13154 [28]
+[44]     0.0    0.00    0.00    9999         pagerank__B_15__integer_hash_map__insert__new_node.13146 [44]
+-----------------------------------------------
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__pseudo_reference__R2620b___finalizer.9846 [65]
+                0.00    0.00     150/450         pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363 [66]
+                0.00    0.00     150/450         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[45]     0.0    0.00    0.00     450         pagerank__B_15__integer_vectors__implementation__finalize.6952 [45]
+                0.00    0.00     450/450         pagerank__B_15__integer_vectors__implementation__unlock.6675 [47]
+-----------------------------------------------
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__pseudo_reference.8158 [64]
+                0.00    0.00     300/450         pagerank__B_15__integer_vectors__implementation__adjust.6949 [49]
+[46]     0.0    0.00    0.00     450         pagerank__B_15__integer_vectors__implementation__lock.6672 [46]
+-----------------------------------------------
+                0.00    0.00     450/450         pagerank__B_15__integer_vectors__implementation__finalize.6952 [45]
+[47]     0.0    0.00    0.00     450         pagerank__B_15__integer_vectors__implementation__unlock.6675 [47]
+-----------------------------------------------
+                0.00    0.00     300/300         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[48]     0.0    0.00    0.00     300         pagerank__B_15__integer_vectors__has_element.7656 [48]
+-----------------------------------------------
+                0.00    0.00     150/300         pagerank__B_15__integer_vectors__pseudo_reference.8158 [64]
+                0.00    0.00     150/300         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[49]     0.0    0.00    0.00     300         pagerank__B_15__integer_vectors__implementation__adjust.6949 [49]
+                0.00    0.00     300/450         pagerank__B_15__integer_vectors__implementation__lock.6672 [46]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363 [66]
+[50]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__T913b.8445 [50]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[51]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__T941b.8479 [51]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iteratorDF__2.8441 [62]
+[52]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__finalize__4.8428 [52]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__implementation__unbusy.6669 [57]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__first__3.8458 [54]
+[53]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__first.7981 [53]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__is_empty.7708 [58]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[54]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__first__3.8458 [54]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__first.7981 [53]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[55]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__get_element_access.8162 [55]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate__2.8052 [59]
+[56]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__implementation__busy.6666 [56]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__finalize__4.8428 [52]
+[57]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__implementation__unbusy.6669 [57]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__first.7981 [53]
+[58]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__is_empty.7708 [58]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[59]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__iterate__2.8052 [59]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__implementation__busy.6666 [56]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate__R2472b___finalizer__2.9629 [60]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate___finalizer__2.9623 [61]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate__2.8052 [59]
+[60]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__iterate__R2472b___finalizer__2.9629 [60]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iterate__2.8052 [59]
+[61]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__iterate___finalizer__2.9623 [61]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363 [66]
+[62]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__iteratorDF__2.8441 [62]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__finalize__4.8428 [52]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[63]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__next__2.8000 [63]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[64]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__pseudo_reference.8158 [64]
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__implementation__lock.6672 [46]
+                0.00    0.00     150/300         pagerank__B_15__integer_vectors__implementation__adjust.6949 [49]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__pseudo_reference__R2620b___finalizer.9846 [65]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__pseudo_reference.8158 [64]
+[65]     0.0    0.00    0.00     150         pagerank__B_15__integer_vectors__pseudo_reference__R2620b___finalizer.9846 [65]
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__implementation__finalize.6952 [45]
+-----------------------------------------------
+                0.00    0.00     150/150         pagerank__B_15__new_matrix__next_weight_vector.8618 [6]
+[66]     0.0    0.00    0.00     150         pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363 [66]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__iteratorDF__2.8441 [62]
+                0.00    0.00     150/150         pagerank__B_15__integer_vectors__T913b.8445 [50]
+                0.00    0.00     150/450         pagerank__B_15__integer_vectors__implementation__finalize.6952 [45]
+-----------------------------------------------
+                0.00    0.00       2/10          pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592 [72]
+                0.00    0.00       8/10          pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+[67]     0.0    0.00    0.00      10         pagerank__B_15__integer_hash_map__ht_ops__free_bucketsXnn.12644 [67]
+-----------------------------------------------
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [30]
+[68]     0.0    0.00    0.00       9         pagerank__B_15__integer_hash_map__ht_ops__new_bucketsXnn.12640 [68]
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__ht_types__buckets_typeIP.11455 [69]
+-----------------------------------------------
+                0.00    0.00       9/9           pagerank__B_15__integer_hash_map__ht_ops__new_bucketsXnn.12640 [68]
+[69]     0.0    0.00    0.00       9         pagerank__B_15__integer_hash_map__ht_types__buckets_typeIP.11455 [69]
+-----------------------------------------------
+                0.00    0.00       2/2           pagerank__B_15___finalizer.5997 [81]
+[70]     0.0    0.00    0.00       2         pagerank__B_15__integer_hash_map__finalize__2.11811 [70]
+                0.00    0.00       2/2           pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592 [72]
+-----------------------------------------------
+                0.00    0.00       2/2           pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592 [72]
+[71]     0.0    0.00    0.00       2         pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [71]
+                0.00    0.00    9999/22289       pagerank__B_15__integer_hash_map__next__5.12554 [35]
+                0.00    0.00    9999/9999        pagerank__B_15__integer_hash_map__free.12565 [43]
+                0.00    0.00       2/10009       pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830 [40]
+-----------------------------------------------
+                0.00    0.00       2/2           pagerank__B_15__integer_hash_map__finalize__2.11811 [70]
+[72]     0.0    0.00    0.00       2         pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592 [72]
+                0.00    0.00       2/2           pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [71]
+                0.00    0.00       2/10          pagerank__B_15__integer_hash_map__ht_ops__free_bucketsXnn.12644 [67]
+-----------------------------------------------
+                0.00    0.00       1/2           _ada_pagerank [2]
+                0.00    0.00       1/2           pagerank__B_15__integer_hash_map__mapIP.11860 [82]
+[73]     0.0    0.00    0.00       2         pagerank__B_15__integer_hash_map__ht_types__hash_table_typeIP.11634 [73]
+-----------------------------------------------
+                0.00    0.00       2/2           pagerank__B_15___finalizer.5997 [81]
+[74]     0.0    0.00    0.00       2         pagerank__B_15__integer_vectors__finalize__2.7589 [74]
+                0.00    0.00       2/2           pagerank__B_15__integer_vectors__implementation__tc_check.6678 [75]
+-----------------------------------------------
+                0.00    0.00       2/2           pagerank__B_15__integer_vectors__finalize__2.7589 [74]
+[75]     0.0    0.00    0.00       2         pagerank__B_15__integer_vectors__implementation__tc_check.6678 [75]
+-----------------------------------------------
+                0.00    0.00       1/1           ada_main___elabb [77]
+[76]     0.0    0.00    0.00       1         ada_main__Tsec_default_sized_stacksBIP [76]
+-----------------------------------------------
+                0.00    0.00       1/1           adainit [80]
+[77]     0.0    0.00    0.00       1         ada_main___elabb [77]
+                0.00    0.00       1/1           ada_main__Tsec_default_sized_stacksBIP [76]
+-----------------------------------------------
+                0.00    0.00       1/1           adafinal [79]
+[78]     0.0    0.00    0.00       1         ada_main__finalize_library [78]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[79]     0.0    0.00    0.00       1         adafinal [79]
+                0.00    0.00       1/1           ada_main__finalize_library [78]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[80]     0.0    0.00    0.00       1         adainit [80]
+                0.00    0.00       1/1           ada_main___elabb [77]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[81]     0.0    0.00    0.00       1         pagerank__B_15___finalizer.5997 [81]
+                0.00    0.00       2/2           pagerank__B_15__integer_hash_map__finalize__2.11811 [70]
+                0.00    0.00       2/2           pagerank__B_15__integer_vectors__finalize__2.7589 [74]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[82]     0.0    0.00    0.00       1         pagerank__B_15__integer_hash_map__mapIP.11860 [82]
+                0.00    0.00       1/2           pagerank__B_15__integer_hash_map__ht_types__hash_table_typeIP.11634 [73]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[83]     0.0    0.00    0.00       1         pagerank__B_15__integer_vectors__append__2.7931 [83]
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__append_slow_path.8941 [84]
+-----------------------------------------------
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__append__2.7931 [83]
+[84]     0.0    0.00    0.00       1         pagerank__B_15__integer_vectors__append_slow_path.8941 [84]
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__insert__4.7887 [85]
+-----------------------------------------------
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__append_slow_path.8941 [84]
+[85]     0.0    0.00    0.00       1         pagerank__B_15__integer_vectors__insert__4.7887 [85]
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__length.7701 [86]
+-----------------------------------------------
+                0.00    0.00       1/1           pagerank__B_15__integer_vectors__insert__4.7887 [85]
+[86]     0.0    0.00    0.00       1         pagerank__B_15__integer_vectors__length.7701 [86]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[87]     0.0    0.00    0.00       1         pagerank__B_15__integer_vectors__vectorIP.7638 [87]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[88]     0.0    0.00    0.00       1         pagerank__B_15__invert_arcs.10424 [88]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[89]     0.0    0.00    0.00       1         pagerank__B_15__new_matrix__ones.8612 [89]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[90]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B119b___finalizer.5225 [90]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[91]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B58b___finalizer.5129 [91]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[92]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B68b___finalizer.5147 [92]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[93]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B78b___finalizer.5165 [93]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[94]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B88b___finalizer.5180 [94]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[95]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B92b___finalizer.5186 [95]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[96]     0.0    0.00    0.00       1         pagerank__B_1__L_2__B96b___finalizer.5192 [96]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_pagerank [2]
+[97]     0.0    0.00    0.00       1         pagerank___finalizer.4633 [97]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+   [2] _ada_pagerank          [20] pagerank__B_15__integer_hash_map__ht_types__implementation__unlock.10827 [85] pagerank__B_15__integer_vectors__insert__4.7887
+  [76] ada_main__Tsec_default_sized_stacksBIP [32] pagerank__B_15__integer_hash_map__ht_types__implementation__with_lockIP.11415 [58] pagerank__B_15__integer_vectors__is_empty.7708
+  [77] ada_main___elabb       [18] pagerank__B_15__integer_hash_map__ht_types__implementation__zero_counts.10815 [59] pagerank__B_15__integer_vectors__iterate__2.8052
+  [78] ada_main__finalize_library [26] pagerank__B_15__integer_hash_map__insert.12050 [60] pagerank__B_15__integer_vectors__iterate__R2472b___finalizer__2.9629
+  [79] adafinal               [27] pagerank__B_15__integer_hash_map__insert__3.12061 [61] pagerank__B_15__integer_vectors__iterate___finalizer__2.9623
+  [80] adainit                [28] pagerank__B_15__integer_hash_map__insert__local_insert.13154 [62] pagerank__B_15__integer_vectors__iteratorDF__2.8441
+  [11] pagerank__B_15__Olt.10416 [44] pagerank__B_15__integer_hash_map__insert__new_node.13146 [23] pagerank__B_15__integer_vectors__iteratorFD.8452
+  [81] pagerank__B_15___finalizer.5997 [14] pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keysXnn.12662 [86] pagerank__B_15__integer_vectors__length.7701
+  [33] pagerank__B_15__hash.10435 [22] pagerank__B_15__integer_hash_map__key_ops__checked_equivalent_keys___finalizer.12932 [63] pagerank__B_15__integer_vectors__next__2.8000
+  [24] pagerank__B_15__integer_hash_map__contains.12100 [13] pagerank__B_15__integer_hash_map__key_ops__checked_indexXnn.12657 [64] pagerank__B_15__integer_vectors__pseudo_reference.8158
+  [42] pagerank__B_15__integer_hash_map__cursorIP.11875 [21] pagerank__B_15__integer_hash_map__key_ops__checked_index___finalizer.12948 [65] pagerank__B_15__integer_vectors__pseudo_reference__R2620b___finalizer.9846
+   [9] pagerank__B_15__integer_hash_map__element__2.12104 [10] pagerank__B_15__integer_hash_map__key_ops__findXnn.12672 [87] pagerank__B_15__integer_vectors__vectorIP.7638
+  [34] pagerank__B_15__integer_hash_map__equivalent_key_node.12648 [82] pagerank__B_15__integer_hash_map__mapIP.11860 [88] pagerank__B_15__invert_arcs.10424
+  [70] pagerank__B_15__integer_hash_map__finalize__2.11811 [35] pagerank__B_15__integer_hash_map__next__5.12554 [6] pagerank__B_15__new_matrix__next_weight_vector.8618
+  [25] pagerank__B_15__integer_hash_map__find.12096 [39] pagerank__B_15__integer_hash_map__set_next.12558 [66] pagerank__B_15__new_matrix__next_weight_vector__B2978b___finalizer.10363
+  [43] pagerank__B_15__integer_hash_map__free.12565 [50] pagerank__B_15__integer_vectors__T913b.8445 [89] pagerank__B_15__new_matrix__ones.8612
+  [37] pagerank__B_15__integer_hash_map__hash_node.12551 [51] pagerank__B_15__integer_vectors__T941b.8479 [17] pagerank__B_15__new_vector__elementary_functions__OexponXnn.8674
+  [36] pagerank__B_15__integer_hash_map__ht_ops__capacityXnn.12602 [83] pagerank__B_15__integer_vectors__append__2.7931 [15] pagerank__B_15__new_vector__vector_distance.6036
+  [29] pagerank__B_15__integer_hash_map__ht_ops__checked_indexXnn.12582 [84] pagerank__B_15__integer_vectors__append_slow_path.8941 [8] pagerank__B_15__new_vector__vector_sort.6071
+  [31] pagerank__B_15__integer_hash_map__ht_ops__checked_index___finalizer.12727 [74] pagerank__B_15__integer_vectors__finalize__2.7589 [3] pagerank__B_15__sort_arcs.10421
+  [71] pagerank__B_15__integer_hash_map__ht_ops__clearXnn.12595 [52] pagerank__B_15__integer_vectors__finalize__4.8428 [4] pagerank__B_15__sort_arcs__sort.12509
+  [72] pagerank__B_15__integer_hash_map__ht_ops__finalizeXnn.12592 [53] pagerank__B_15__integer_vectors__first.7981 [5] pagerank__B_15__sort_arcs__sort__sift.12519
+  [67] pagerank__B_15__integer_hash_map__ht_ops__free_bucketsXnn.12644 [54] pagerank__B_15__integer_vectors__first__3.8458 [7] pagerank__B_15__sort_arcs__sort__to_index.12516
+  [38] pagerank__B_15__integer_hash_map__ht_ops__indexXnn.12573 [55] pagerank__B_15__integer_vectors__get_element_access.8162 [90] pagerank__B_1__L_2__B119b___finalizer.5225
+  [68] pagerank__B_15__integer_hash_map__ht_ops__new_bucketsXnn.12640 [48] pagerank__B_15__integer_vectors__has_element.7656 [91] pagerank__B_1__L_2__B58b___finalizer.5129
+  [30] pagerank__B_15__integer_hash_map__ht_ops__reserve_capacityXnn.12606 [49] pagerank__B_15__integer_vectors__implementation__adjust.6949 [92] pagerank__B_1__L_2__B68b___finalizer.5147
+  [69] pagerank__B_15__integer_hash_map__ht_types__buckets_typeIP.11455 [56] pagerank__B_15__integer_vectors__implementation__busy.6666 [93] pagerank__B_1__L_2__B78b___finalizer.5165
+  [73] pagerank__B_15__integer_hash_map__ht_types__hash_table_typeIP.11634 [45] pagerank__B_15__integer_vectors__implementation__finalize.6952 [94] pagerank__B_1__L_2__B88b___finalizer.5180
+  [19] pagerank__B_15__integer_hash_map__ht_types__implementation__finalize__3.11400 [46] pagerank__B_15__integer_vectors__implementation__lock.6672 [95] pagerank__B_1__L_2__B92b___finalizer.5186
+  [12] pagerank__B_15__integer_hash_map__ht_types__implementation__initialize__3.11397 [75] pagerank__B_15__integer_vectors__implementation__tc_check.6678 [96] pagerank__B_1__L_2__B96b___finalizer.5192
+  [16] pagerank__B_15__integer_hash_map__ht_types__implementation__lock.10824 [57] pagerank__B_15__integer_vectors__implementation__unbusy.6669 [97] pagerank___finalizer.4633
+  [40] pagerank__B_15__integer_hash_map__ht_types__implementation__tc_check.10830 [47] pagerank__B_15__integer_vectors__implementation__unlock.6675 [41] pagerank__element_io__put.4821
